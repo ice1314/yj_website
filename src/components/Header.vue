@@ -1,5 +1,6 @@
 <template>
     <div>
+		<!-- PC端 -->
         <div class="navBar shadow_b bg_white black_color fixed" v-if="isPc">
             <div class="nav width box_sizing">
                 <a href="/">
@@ -19,7 +20,7 @@
 						</ul>
                     </li>
                 </ul>
-                <span class="fwrx f_r pointer">服务热线：17710398062</span>
+                <span class="fwrx f_r pointer">服务热线：<span class="bold red_color">17710398062</span></span>
                 <el-dropdown class="f_r m_r4 pointer el_dropdown">
                     <span class="el-dropdown-link">
                         App下载<i class="el-icon-arrow-down el-icon--right"></i>
@@ -38,6 +39,7 @@
                 </el-dropdown>
             </div>
         </div>
+		<!-- 移动端 -->
         <div class="webapp_header" v-if="!isPc">
             <div class="navBar_webapp fixed" @click="navClick" v-if="webappShow"></div>
             <ul class="ul_webapp bg_gray" v-if="webappShow1">

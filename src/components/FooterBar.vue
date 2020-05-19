@@ -1,7 +1,7 @@
 <template>
-    <div class="footerBar bg_black">
-        <div class="footerBar_con width clearfix white_color">
-            <div class="contact_us_box f_l box_sizing" style="color: #bfbfbf">
+    <div class="footerBar bg_gray">
+        <div class="footerBar_con width clearfix black_color">
+            <div class="contact_us_box f_l box_sizing">
                 <div class="title bold box_sizing">联系我们</div>
                 <ul class="contact_us_ul">
                     <li class="">北京奕杰企业管理咨询有限公司</li>
@@ -10,25 +10,25 @@
                     <li class="">地址：北京市昌平区珠江摩尔大厦5号楼二单元212</li>
                 </ul>
             </div>
-            <div class="app_download_box f_r box_sizing" style="color: #bfbfbf">
+            <div class="app_download_box f_r box_sizing">
                 <div class="title bold  box_sizing">APP下载</div>
                 <div class="ios_box f_l" style="margin-right: 32px">
 <!--                    <div class=" m_b2">小程序</div>-->
                     <ul class="clearfix">
                         <li class="download">
-                            <a class="white_color" href="/download?type=1">院校下载</a>
+                            <a class="black_color" href="/download?type=1">院校下载</a>
                         </li>
                         <li class="download">
-                            <a class="white_color" href="/download?type=2">企业下载</a>
+                            <a class="black_color" href="/download?type=2">企业下载</a>
                         </li>
                         <li class="download">
-                            <a class="white_color" href="/download?type=3">学生下载</a>
+                            <a class="black_color" href="/download?type=3">学生下载</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="ios_box f_l" style="margin-left: 31%">
-                    <ul class="clearfix" style="margin-top: -50px;padding: 16px 16px 2px;background: rgba(244,244,244,.1)">
+                    <ul class="clearfix" style="margin-top: -50px;padding: 16px 16px 2px;background: #fff">
                         <li class="f_l" style="margin-right: 0">
                             <img class="d_b m_b1" :src="wx_gzh" alt="企业版">
                             <span class="">微信公众号</span>
@@ -38,7 +38,7 @@
 
                 <div class="ios_box f_l" style="margin-left: 20%">
 <!--                    <div class=" m_b2">小程序</div>-->
-                    <ul class="clearfix" style="margin-top: -50px;padding: 16px 16px 2px;background: rgba(244,244,244,.1)">
+                    <ul class="clearfix" style="margin-top: -50px;padding: 16px 16px 2px;background: #fff">
                         <li class="f_l" style="margin-right: 0">
                             <img class="d_b m_b1" :src="wx_code3" alt="企业版">
                             <span class="">奕杰注册</span>
@@ -84,8 +84,8 @@
                 </div>-->
             </div>
         </div>
-        <div class="file_info width p_b1 white_color" style="color: #bfbfbf">
-            <a class="font_10 white_color" href="http://www.beian.miit.gov.cn" target="_blank" style="color: #bfbfbf">
+        <div class="file_info width p_b1 black_color">
+            <a class="font_10 black_color" href="http://www.beian.miit.gov.cn" target="_blank">
                 <img class="img" :src="ba" alt="备案">京ICP备18053323号
             </a>
             <div class="font_10 m_l1">Copyright © bjyijie.com.cn  版权所有</div>
@@ -147,7 +147,7 @@
                             height: 86px
                         }
                         a {
-                            color #bfbfbf
+                            color #333333
                         }
                         a:hover {
                             color #f16765

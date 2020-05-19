@@ -271,6 +271,14 @@ img {
     padding: 20px;
 }
 
+.p_lr2 {
+	padding: 0 20px;
+}
+
+.p_lr3 {
+    padding: 0 30px;
+}
+
 .p_t2 {
     padding-top: 20px;
 }
@@ -287,7 +295,7 @@ img {
     padding-right: 20px;
 }
 
-/*padding PC*/
+/*padding app*/
 .p1_app {
     padding: 0.1rem;
 }
@@ -369,23 +377,23 @@ img {
 
 /*阴影*/
 .shadow {
-    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1)
 }
 
 .shadow_t {
-    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, .1)
 }
 
 .shadow_b {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1)
 }
 
 .shadow_l {
-    box-shadow: -2px 0 4px 0 rgba(0, 0, 0, .1)
+    box-shadow: -2px 0 4px rgba(0, 0, 0, .1)
 }
 
 .shadow_r {
-    box-shadow: 2px 0 4px 0 rgba(0, 0, 0, .1)
+    box-shadow: 2px 0 4px rgba(0, 0, 0, .1)
 }
 
 /*多行文字隐藏*/
